@@ -1,0 +1,25 @@
+.cellWrapper {
+  border: 1px solid #ddd;
+  background-color: #337;
+  width: 80px;
+  height: 80px;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ddd;
+}
+
+.cellWrapper:hover {
+  cursor: pointer;
+  filter: brightness(0.8);
+}
+
+.lineWrapper {
+  display: flex;
+  width: min-content;
+}
+
+.turn {
+  color: #ddd
+}
